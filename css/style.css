@@ -56,12 +56,19 @@ nav a {
 .smallPics {
   width: 1000px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .picTitles {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.picContainer {
+  margin: 10px;
+  text-align: center;
 }
